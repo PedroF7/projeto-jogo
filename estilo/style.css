@@ -1,7 +1,78 @@
 @charset "UTF-8";
 
-section{
-    background-image: url('imagens/ola.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+@font-face {
+    font-family: 'audio';
+    src: url(../fontes/Audiowide-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'exo';
+    src: url(../fontes/Exo2-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor01: #F22738;
+    --cor02: #D9BB84;
+    --cor03: #F2C299;
+    --cor04: #592C12;
+    --cor05: #0D0D0D;
+
+    --fonte01: 'exo';
+    --fonte02: 'audio'
+}
+
+header{
+    background-image: linear-gradient(to left, var(--cor04), var(--cor05));
+    width: auto;
+    height: 40vh;
+    color: var(--cor02);
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--fonte02);
+    padding-top: 40px;
+    font-size: 4em;
+}
+
+header > p{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+nav{
+    background-image: linear-gradient(to left, var(--cor04), var(--cor05));
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 1.3em;
+    
+
+}
+
+nav > a{
+    color: var(--cor02);
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: var(--cor01);
+    color: var(--cor04);
+}
+
+main{
+    min-width: 450px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
 }
