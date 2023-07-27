@@ -2,12 +2,17 @@
 
 @font-face {
     font-family: 'audio';
-    src: url(../fontes/Audiowide-Regular.ttf);
+    src: url(../fontes/Audiowide-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'exo';
-    src: url(../fontes/Exo2-VariableFont_wght.ttf);
+    src: url(../fontes/Exo2-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'game';
+    src: url(../fontes/Fun\ Games.ttf);
 }
 
 *{
@@ -21,9 +26,11 @@
     --cor03: #F2C299;
     --cor04: #592C12;
     --cor05: #0D0D0D;
+    --cor06: white;
 
     --fonte01: 'exo';
-    --fonte02: 'audio'
+    --fonte02: 'audio';
+    --fonte03: 'game';
 }
 
 header{
@@ -37,11 +44,13 @@ header > h1{
     font-family: var(--fonte02);
     padding-top: 40px;
     font-size: 4em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
 header > p{
     font-size: 1.2em;
     text-transform: uppercase;
+    font-family: var(--fonte01);
     padding-top: 50px;
     margin: auto;
 }
@@ -60,6 +69,8 @@ nav > a{
     color: var(--cor02);
     text-decoration: none;
     padding: 10px;
+    font-family: var(--fonte01);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.267);
     font-weight: bolder;
     transition-duration: .5s;
     
@@ -68,7 +79,7 @@ nav > a{
 nav > a:hover{
     background-color: white;
     color: black;
-    border-radius: 3px;
+    border-radius: 10px;
     transition-duration: 1s;
 }
 
@@ -82,4 +93,27 @@ main{
     border-bottom-right-radius: 10px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+
+main h1{
+    font-family: var(--fonte03);
+    padding-top: 10px;
+    font-size: 2.8em;
+    color: var(--cor04);
+    background-image: linear-gradient(to left, var(--cor02), var(--cor06));
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+main p{
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 2em;
+    font-family: var(--fonte01);
+    font-weight: 500;
+}
+
+strong{
+    text-transform: uppercase;
+    color: #97491c;
 }
