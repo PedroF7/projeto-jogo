@@ -28,8 +28,7 @@
 
 header{
     background-image: linear-gradient(to left, var(--cor04), var(--cor05));
-    width: auto;
-    height: 40vh;
+    height: 35vh;
     color: var(--cor02);
     text-align: center;
 }
@@ -43,12 +42,14 @@ header > h1{
 header > p{
     font-size: 1.2em;
     text-transform: uppercase;
-    padding-top: 40px;
+    padding-top: 50px;
+    margin: auto;
 }
 
 nav{
     background-image: linear-gradient(to left, var(--cor04), var(--cor05));
     padding-bottom: 20px;
+    padding-top: 40px;
     padding-left: 10px;
     font-size: 1.3em;
     
@@ -58,15 +59,21 @@ nav{
 nav > a{
     color: var(--cor02);
     text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    transition-duration: .5s;
+    
 }
 
 nav > a:hover{
-    background-color: var(--cor01);
-    color: var(--cor04);
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    transition-duration: 1s;
 }
 
 main{
-    min-width: 450px;
+    min-width: 400px;
     max-width: 1000px;
     padding: 20px;
     margin: auto;
