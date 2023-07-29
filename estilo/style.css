@@ -63,6 +63,7 @@ nav{
     font-size: 1.3em;   
 }
 
+
 nav > a{
     color: var(--cor02);
     text-decoration: none;
