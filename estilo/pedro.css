@@ -131,3 +131,25 @@ main h2{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     color: var(--cor04);
 }
+
+footer{
+    background-color: #0D0D0D;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 1em;
+    height: 30px;
+    font-family: var(--fonte01);
+    text-transform: uppercase;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+footer a:hover{
+    color: rgb(189, 189, 248);
+    text-decoration: underline;
+}
