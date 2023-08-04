@@ -15,36 +15,51 @@
     src: url(../fontes/Fun\ Games.ttf);
 }
 
+@font-face {
+    font-family: 'best';
+    src: url(../fontes/Best\ In\ Class\ V.1.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'ola';
+    src: url(../fontes/THEBOLDFONT.ttf) format('truetype');
+}
+
 *{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 :root{
-    --cor01: #F22738;
-    --cor02: #D9BB84;
-    --cor03: #F2C299;
-    --cor04: #592C12;
-    --cor05: #0D0D0D;
-    --cor06: white;
+    --cor01: #024059;
+    --cor02: #026873;
+    --cor03: #04BF8A;
+    --cor04: #025940;
+    --cor05: #03A64A;
+    --cor06: #ffffff;
+    --cor07: #000000d5;
 
     --fonte01: 'exo';
     --fonte02: 'audio';
     --fonte03: 'game';
+    --fonte04: 'best';
+    --fonte05: 'ola'
+
 }
 
 header{
-    background-image: linear-gradient(to left, var(--cor04), var(--cor05));
+    background-image: linear-gradient(to left, var(--cor01), var(--cor07));
     height: 30vh;
-    color: var(--cor02);
+    color: var(--cor06);
     text-align: center;
 }
 
 header > h1{
     font-family: var(--fonte02);
     padding-top: 40px;
-    font-size: 3.7em;
+    font-size: 4em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-weight: bolder;
 }
 
 header > p{
@@ -56,7 +71,7 @@ header > p{
 }
 
 nav{
-    background-image: linear-gradient(to left, var(--cor04), var(--cor05));
+    background-image: linear-gradient(to left, var(--cor01), var(--cor07));
     padding-bottom: 20px;
     padding-top: 50px;
     padding-left: 10px;
@@ -65,7 +80,7 @@ nav{
 
 
 nav > a{
-    color: var(--cor02);
+    color: var(--cor06);
     text-decoration: none;
     padding: 10px;
     font-family: var(--fonte01);
@@ -95,10 +110,11 @@ main{
 }
 
 main h1{
-    font-family: var(--fonte03);
+    font-family: var(--fonte05);
     padding-top: 10px;
     font-size: 2.8em;
-    color: var(--cor04);
+    color: var(--cor02);
+    font-weight: bolder;
     background-image: linear-gradient(to left, var(--cor02), var(--cor06));
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
@@ -115,7 +131,7 @@ main p{
 
 strong{
     text-transform: uppercase;
-    color: #97491c;
+    color: var(--cor02);
 }
 
 main h2{
