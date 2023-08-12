@@ -20,8 +20,10 @@
     src: url(../fontes/Nau\ Sea.otf) format('opentype');
 }
 
-
-
+@font-face {
+    font-family: 'mario';
+    src: url(../fontes/SuperMario256.ttf) format('truetype');
+}
 
 *{
     margin: 0px;
@@ -36,12 +38,14 @@
     --cor05: #03A64A;
     --cor06: #ffffff;
     --cor07: #000000d5;
+    --cor08: #0468BF;
+    --cor09: #E92F2C;
 
     --fonte01: 'exo';
     --fonte02: 'audio';
     --fonte03: 'game';
     --fonte04: 'vermin';
-
+    --fonte05: 'mario';
 }
 
 header{
@@ -96,7 +100,7 @@ nav > a:hover{
 
 main{
     min-width: 400px;
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 20px;
     margin: auto;
     margin-bottom: 30px;
@@ -128,6 +132,47 @@ main p{
     font-weight: 500;
 }
 
+/* section{
+    padding-top: 7vh;
+    padding-bottom: 5vw; 
+    display: inline-block;
+}
+
+#imagem01{
+    background-image: url(../imagens/Super-Mario-Bros-Movie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+
+}
+
+section.imagem > p{
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+}
+
+section > p{
+    
+    padding-bottom: 1.5em;
+    font-size: 4vh;
+    color: #ff010193;
+    text-shadow: 2px 10px 0px black;
+    text-align: center;
+    padding-top: 10vh;
+    padding-left: 10px;
+}
+
+section > h3{
+    background-image: linear-gradient(to top, var(--cor08), var(--cor09));
+    text-align: center;
+    font-size: 5vh;
+    font-family: var(--fonte05);
+    font-size: 3em;
+    color: #05c7f2cc;
+    padding: 5vh;
+} */
+
 strong{
     text-transform: uppercase;
     color: var(--cor02);
@@ -143,24 +188,6 @@ main h2{
     color: var(--cor04);
 }
 
-section{
-    background-image: url(../imagens/mario-iconico-super-mario-bros-nes-nintendo-8-bits.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100vw;
-}
-
-section > h2{
-    background-color: #0D0D0D;
-}
-
-
-section p{
-    font-size: 1em;
-    text-align: left;
-}
 footer{
     background-color: #0D0D0D;
     text-align: center;
