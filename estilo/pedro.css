@@ -12,17 +12,40 @@
 
 @font-face {
     font-family: 'game';
-    src: url(../fontes/Fun\ Games.ttf);
+    src: url(../fontes/Fun\ Games.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'best';
-    src: url(../fontes/Best\ In\ Class\ V.1.ttf) format('truetype');
+    font-family: 'vermin';
+    src: url(../fontes/Nau\ Sea.otf) format('opentype');
 }
 
 @font-face {
-    font-family: 'ola';
-    src: url(../fontes/THEBOLDFONT.ttf) format('truetype');
+    font-family: 'mario';
+    src: url(../fontes/SuperMario256.ttf) format('truetype');
+}
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor01: #024059;
+    --cor02: #026873;
+    --cor03: #04BF8A;
+    --cor04: #025940;
+    --cor05: #03A64A;
+    --cor06: #ffffff;
+    --cor07: #000000d5;
+    --cor08: #0468BF;
+    --cor09: #E92F2C;
+
+    --fonte01: 'exo';
+    --fonte02: 'audio';
+    --fonte03: 'game';
+    --fonte04: 'vermin';
+    --fonte05: 'mario';
 }
 
 *{
@@ -66,7 +89,7 @@ header > p{
     font-size: 1.2em;
     text-transform: uppercase;
     font-family: var(--fonte01);
-    padding-top: 50px;
+    padding-top: 35px;
     margin: auto;
 }
 
@@ -110,7 +133,8 @@ main{
 }
 
 main h1{
-    font-family: var(--fonte05);
+    font-family: var(--fonte02);
+    text-transform: uppercase;
     padding-top: 10px;
     font-size: 2.8em;
     color: var(--cor02);
