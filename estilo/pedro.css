@@ -141,6 +141,7 @@ main h1{
     font-weight: bolder;
     background-image: linear-gradient(to left, var(--cor02), var(--cor06));
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    border-radius: 30px;
 }
 
 main p{
@@ -165,6 +166,7 @@ main h2{
     background-image: linear-gradient(to left, var(--cor02), var(--cor06));
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     color: var(--cor04);
+    border-radius: 30px;
 }
 
 footer{
