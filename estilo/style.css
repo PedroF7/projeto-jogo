@@ -74,9 +74,9 @@ header > p{
 nav{
     background-image: linear-gradient(to left, var(--cor01), var(--cor07));
     padding-bottom: 20px;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 10px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 
