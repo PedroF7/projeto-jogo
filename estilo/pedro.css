@@ -39,7 +39,7 @@
     --cor06: #ffffff;
     --cor07: #000000d5;
     --cor08: #0468BF;
-    --cor09: #E92F2C;
+    --cor09: #f32420c4;
 
     --fonte01: 'exo';
     --fonte02: 'audio';
@@ -80,9 +80,10 @@ header{
 header > h1{
     font-family: var(--fonte02);
     padding-top: 40px;
-    font-size: 4em;
+    font-size: 3.5em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
 header > p{
@@ -96,7 +97,7 @@ header > p{
 nav{
     background-image: linear-gradient(to left, var(--cor01), var(--cor07));
     padding-bottom: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left: 10px;
     font-size: 1.3em;   
 }
@@ -136,10 +137,10 @@ main h1{
     font-family: var(--fonte02);
     text-transform: uppercase;
     padding-top: 10px;
-    font-size: 2.8em;
-    color: var(--cor02);
+    font-size: 2.6em;
+    color: var(--cor09);
     font-weight: bolder;
-    background-image: linear-gradient(to left, var(--cor02), var(--cor06));
+    background-image: linear-gradient(to left, var(--cor08), var(--cor06));
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     border-radius: 30px;
 }
