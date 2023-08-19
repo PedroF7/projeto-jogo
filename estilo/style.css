@@ -98,6 +98,11 @@ nav > a:hover{
     transition-duration: 1s;
 }
 
+@media screen and (max-width: 600px){
+    
+    
+}
+
 main{
     min-width: 400px;
     max-width: 1000px;
