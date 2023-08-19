@@ -50,7 +50,7 @@
 
 header{
     background-image: linear-gradient(to left, var(--cor01), var(--cor07));
-    height: 28vh;
+    height: 29vh;
     color: var(--cor06);
     text-align: center;
 }
@@ -58,7 +58,7 @@ header{
 header > h1{
     font-family: var(--fonte02);
     padding-top: 40px;
-    font-size: 3.7em;
+    font-size: 3.6em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     font-weight: bolder;
 }
@@ -76,7 +76,7 @@ nav{
     padding-bottom: 20px;
     padding-top: 40px;
     padding-left: 10px;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 
