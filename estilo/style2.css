@@ -16,10 +16,9 @@
 }
 
 @font-face {
-    font-family: 'vermin';
-    src: url(../fontes/Nau\ Sea.otf) format('opentype');
+    font-family: 'bebas';
+    src: url(../fontes/Vampire\ Wars.ttf) format('truetype');
 }
-
 
 
 *{
@@ -41,8 +40,7 @@
     --fonte01: 'exo';
     --fonte02: 'audio';
     --fonte03: 'game';
-    --fonte04: 'vermin';
-    --fonte05: 't';
+    --fonte04: 'bebas'
 }
 
 header{
@@ -112,16 +110,14 @@ main{
     transition: .5s;
 }
 
-main h1{
-    font-family: var(--fonte03);
+main #titulo{
+    font-family: var(--fonte04);
     border-radius: 50px;
-    color: black;
     padding-top: 10px;
-    font-size: 2.4em;
+    font-size: 2.2em;
     font-weight: normal;
     color: var(--cor02);
-    font-weight: 600;
-    background-image: linear-gradient(to left, var(--cor05), var(--cor06));
+    background-image: linear-gradient(to left, var(--cor03), var(--cor06));
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
@@ -130,25 +126,27 @@ main p{
     padding-bottom: 25px;
     text-align: justify;
     font-size: 1.2em;
+    display: inline-block;
     line-height: 2.3em;
     font-family: var(--fonte01);
     font-weight: 500;
 }
 
 main h2{
-    font-family: var(--fonte03);
+    font-family: var(--fonte04);
     padding-top: 20px;
-    font-size: 2.2em;
-    font-weight: 600;
+    font-weight: normal;
+    font-size: 2em;
     background-image: linear-gradient(to left, var(--cor03), var(--cor06));
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    color: var(--cor01);
+    color: var(--cor02);
     border-radius: 50px;
 }
 
 strong{
+    font-family: var(--fonte04);
+    color: var(--cor01);
     text-transform: uppercase;
-    color: var(--cor02);
 }
 
 footer{
@@ -171,4 +169,3 @@ footer a{
 footer a:hover{
     color: rgb(189, 189, 248);
 }
-
