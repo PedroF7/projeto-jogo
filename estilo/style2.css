@@ -95,10 +95,8 @@ nav > a:hover{
     transition-duration: 1s;
 }
 
-
-
 main{
-    min-width: 500px;
+    min-width: 400px;
     max-width: 1000px;
     padding: 20px;
     margin: auto;
@@ -110,11 +108,11 @@ main{
     transition: .5s;
 }
 
-main #titulo{
+main h1{
     font-family: var(--fonte04);
     border-radius: 50px;
     padding-top: 10px;
-    font-size: 2.2em;
+    font-size: 2.1em;
     font-weight: normal;
     color: var(--cor02);
     background-image: linear-gradient(to left, var(--cor03), var(--cor06));
@@ -127,7 +125,7 @@ main p{
     text-align: justify;
     font-size: 1.2em;
     display: inline-block;
-    line-height: 2.3em;
+    line-height: 2em;
     font-family: var(--fonte01);
     font-weight: 500;
 }
@@ -136,7 +134,7 @@ main h2{
     font-family: var(--fonte04);
     padding-top: 20px;
     font-weight: normal;
-    font-size: 2em;
+    font-size: 1.9em;
     background-image: linear-gradient(to left, var(--cor03), var(--cor06));
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     color: var(--cor02);
