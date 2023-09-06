@@ -47,7 +47,7 @@
 
 header {
     background-image: linear-gradient(to left, var(--cor01), var(--cor07));
-    min-height: 200px;
+    min-height: 180px;
     max-height: 250px;
     /* height: 29vh; */
     color: var(--cor06);
