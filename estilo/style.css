@@ -47,7 +47,7 @@
 
 header {
     background-image: linear-gradient(to left, var(--cor01), var(--cor07));
-    min-height: 180px;
+    min-height: 100%;
     max-height: 250px;
     /* height: 29vh; */
     color: var(--cor06);
@@ -99,7 +99,7 @@ nav>a:hover {
 
 
 main {
-    min-width: 400px;
+    min-width: 300px;
     max-width: 1000px;
     padding: 20px;
     margin: auto;
@@ -164,9 +164,10 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
-    transition: .5s;
+    transition: 1s;
 }
 
 footer a:hover {
     color: rgb(189, 189, 248);
+    border-bottom: 1px solid black;
 }
