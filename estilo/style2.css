@@ -10,6 +10,10 @@
     src: url(../fontes/Exo2-VariableFont_wght.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'game';
+    src: url(../fontes/Fun\ Games.ttf) format('truetype');
+}
 
 @font-face {
     font-family: 'bebas';
@@ -21,6 +25,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
@@ -34,6 +39,7 @@
 
     --fonte01: 'exo';
     --fonte02: 'audio';
+    --fonte03: 'game';
     --fonte04: 'bebas';
 }
 
