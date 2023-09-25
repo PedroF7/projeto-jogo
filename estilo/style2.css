@@ -10,10 +10,6 @@
     src: url(../fontes/Exo2-VariableFont_wght.ttf) format('truetype');
 }
 
-@font-face {
-    font-family: 'game';
-    src: url(../fontes/Fun\ Games.ttf) format('truetype');
-}
 
 @font-face {
     font-family: 'bebas';
@@ -23,6 +19,7 @@
 
 * {
     margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -34,13 +31,10 @@
     --cor05: #03A64A;
     --cor06: #ffffff;
     --cor07: #000000d5;
-    --cor08: #0468BF;
-    --cor09: #E92F2C;
 
     --fonte01: 'exo';
     --fonte02: 'audio';
-    --fonte03: 'game';
-    --fonte04: 'bebas'
+    --fonte04: 'bebas';
 }
 
 header {
